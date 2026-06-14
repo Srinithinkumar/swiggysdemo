@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
-export default defineConfig({
-  base: './',
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/swiggysdemo/' : '/',
   root: '.',
   build: {
     outDir: 'dist',
@@ -11,4 +11,4 @@ export default defineConfig({
     port: 3000,
     open: true
   }
-});
+}));
