@@ -52,9 +52,9 @@ const REEL_DATA = [
 ];
 
 const DEFAULT_REEL_VIDEO_PATHS = [
-  '/swiggysdemo/videos/demo1.mp4',
-  '/swiggysdemo/videos/demo2.mp4',
-  '/swiggysdemo/videos/demo3.mp4',
+  '/swiggysdemo/demo1.mp4',
+  '/swiggysdemo/demo2.mp4',
+  '/swiggysdemo/demo3.mp4',
 ];
 
 export function renderReels() {
