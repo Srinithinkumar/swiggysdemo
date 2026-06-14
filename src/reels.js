@@ -52,9 +52,9 @@ const REEL_DATA = [
 ];
 
 const DEFAULT_REEL_VIDEO_PATHS = [
-  './videos/demo1.mp4',
-  './videos/demo2.mp4',
-  './videos/demo3.mp4',
+  new URL('../public/videos/demo1.mp4', import.meta.url).href,
+  new URL('../public/videos/demo2.mp4', import.meta.url).href,
+  new URL('../public/videos/demo3.mp4', import.meta.url).href,
 ];
 
 export function renderReels() {
