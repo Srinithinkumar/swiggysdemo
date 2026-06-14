@@ -51,12 +51,10 @@ const REEL_DATA = [
   },
 ];
 
-const APP_BASE_URL = (import.meta.env && import.meta.env.BASE_URL) ? import.meta.env.BASE_URL : './';
-
 const DEFAULT_REEL_VIDEO_PATHS = [
-  `${APP_BASE_URL}videos/demo1.mp4`,
-  `${APP_BASE_URL}videos/demo2.mp4`,
-  `${APP_BASE_URL}videos/demo3.mp4`,
+  './videos/demo1.mp4',
+  './videos/demo2.mp4',
+  './videos/demo3.mp4',
 ];
 
 export function renderReels() {
