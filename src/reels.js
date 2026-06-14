@@ -52,9 +52,9 @@ const REEL_DATA = [
 ];
 
 const DEFAULT_REEL_VIDEO_PATHS = [
-  `${window.location.pathname.replace(/\/$/, '')}/videos/demo1.mp4`,
-  `${window.location.pathname.replace(/\/$/, '')}/videos/demo2.mp4`,
-  `${window.location.pathname.replace(/\/$/, '')}/videos/demo3.mp4`,
+  '/swiggysdemo/videos/demo1.mp4',
+  '/swiggysdemo/videos/demo2.mp4',
+  '/swiggysdemo/videos/demo3.mp4',
 ];
 
 export function renderReels() {
